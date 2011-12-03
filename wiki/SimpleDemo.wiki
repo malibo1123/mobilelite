@@ -1,0 +1,17 @@
+#This a simple demo to show how to use the mobilelite in a android project
+
+= Introduction =
+This demo is simple android application, it has a web page with two table like below:
+<img src="http://mobilelite.googlecode.com/svn/trunk/mobilelite-demo/assets/screen/hello_word_html.png">
+===Requirement:===
+When click the "Echo" button, display user a toast message with "hello ${input}"
+
+<img src="http://mobilelite.googlecode.com/svn/trunk/mobilelite-demo/assets/screen/config_info_html.png">
+When click the "Config Info" button, display the content read from assets/config.properties.
+
+= Application Construction =
+* AndroidManifest.xml
+* res/layout/main.xml
+* MobileLiteActivity.java
+* assets/config.properties
+* assets/demo.html

@@ -19,8 +19,9 @@ When click the "Config Info" button, display the content read from assets/config
 <li>[http://mobilelite.googlecode.com/svn/trunk/mobilelite-demo/assets/config.properties assets/config.properties]</li>
 <li>[http://mobilelite.googlecode.com/svn/trunk/mobilelite-demo/assets/demo.html assets/demo.html]</li>
 
+<br>
 
-===MobileLiteActivity:===
+===[http://mobilelite.googlecode.com/svn/trunk/mobilelite-demo/src/org/mobilelite/MobileLiteActivity.java MobileLiteActivity]:===
 {{{
 public class MobileLiteActivity extends Activity {
 	
@@ -92,23 +93,23 @@ public class MobileLiteActivity extends Activity {
 		@SuppressWarnings("unused")
 		@ServiceMethod
     	public Config readConfig() {
-			Config result = new Config("no config read");
+		Config result = new Config("no config read");
 			
-			try {
-				InputStreamReader is = new InputStreamReader(getAssets().open("config.properties"));
-				char[] buf = new char[128];
-				int flag = is.read(buf);
-				StringBuffer content = new StringBuffer();
-				while(flag != -1) {
-					content.append(buf, 0, flag);
-					flag = is.read(buf);
-				}
-				result.setInfo(content.toString());
-			} catch (IOException e) {
-				Log.e("MobileLite Demo", "Error open config file", e);
+		try {
+			InputStreamReader is = new InputStreamReader(getAssets().open("config.properties"));
+			char[] buf = new char[128];
+			int flag = is.read(buf);
+			StringBuffer content = new StringBuffer();
+			while(flag != -1) {
+				content.append(buf, 0, flag);
+				flag = is.read(buf);
 			}
+			result.setInfo(content.toString());
+		} catch (IOException e) {
+			Log.e("MobileLite Demo", "Error open config file", e);
+		}
 			
-			return result;
+		return result;
     	}
     	
     }

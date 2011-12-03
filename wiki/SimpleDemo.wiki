@@ -11,7 +11,7 @@ When click the "Echo" button, display user a toast message with "hello ${input}"
 When click the "Config Info" button, display the content read from assets/config.properties.
 <img src="http://mobilelite.googlecode.com/svn/trunk/mobilelite-demo/assets/screen/config_info_html.png">
 
-= Application Construction: =
+= [http://mobilelite.googlecode.com/svn/trunk/mobilelite-demo/ Application] Construction: =
 <ul>
 <li>[http://mobilelite.googlecode.com/svn/trunk/mobilelite-demo/AndroidManifest.xml AndroidManifest.xml]</li>
 <li>[http://mobilelite.googlecode.com/svn/trunk/mobilelite-demo/res/layout/main.xml res/layout/main.xml]</li>
@@ -116,3 +116,5 @@ public class MobileLiteActivity extends Activity {
     
 }
 }}}
+
+[http://mobilelite.googlecode.com/svn/trunk/mobilelite-demo/ entire code]

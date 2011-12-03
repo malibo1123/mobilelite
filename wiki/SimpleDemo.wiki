@@ -9,9 +9,10 @@ When click the "Echo" button, display user a toast message with "hello ${input}"
 <img src="http://mobilelite.googlecode.com/svn/trunk/mobilelite-demo/assets/screen/config_info_html.png">
 When click the "Config Info" button, display the content read from assets/config.properties.
 
-= Application Construction =
-* AndroidManifest.xml
-* res/layout/main.xml
-* MobileLiteActivity.java
-* assets/config.properties
-* assets/demo.html
+= Application Construction: =
+<ul>
+<li> AndroidManifest.xml</li>
+<li> res/layout/main.xml</li>
+<li> MobileLiteActivity.java</li>
+<li> assets/config.properties</li>
+<li> assets/demo.html</li>

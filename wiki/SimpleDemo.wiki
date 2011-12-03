@@ -2,12 +2,13 @@
 
 = Introduction =
 This demo is simple android application, it has a web page with two table like below:
-<img src="http://mobilelite.googlecode.com/svn/trunk/mobilelite-demo/assets/screen/hello_word_html.png">
 ===Requirement:===
 When click the "Echo" button, display user a toast message with "hello ${input}"
+<img src="http://mobilelite.googlecode.com/svn/trunk/mobilelite-demo/assets/screen/hello_word_html.png">
 
-<img src="http://mobilelite.googlecode.com/svn/trunk/mobilelite-demo/assets/screen/config_info_html.png">
+===Requirement:===
 When click the "Config Info" button, display the content read from assets/config.properties.
+<img src="http://mobilelite.googlecode.com/svn/trunk/mobilelite-demo/assets/screen/config_info_html.png">
 
 = Application Construction: =
 <ul>

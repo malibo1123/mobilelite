@@ -124,4 +124,4 @@ public class MobileLiteActivity extends Activity {
 }
 }}}
 
-[http://mobilelite.googlecode.com/svn/trunk/mobilelite-demo/ entire code]
+[http://mobilelite.googlecode.com/svn/trunk/mobilelite-demo/ entire code] [http://mobilelite.googlecode.com/files/mobileLite-demo.apk installation package]

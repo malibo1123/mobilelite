@@ -51,6 +51,9 @@ public class MobileLiteActivity extends Activity {
      * This is a demo service bean to be called in webpage. Service bean can be used to 
      * handle many thing, e.g. read data from local storage or remote webservice, start
      * a new intent for another activity 
+     * 
+     * <b>Please note the service bean must be annotated with @Service and method to be
+     * exposed in webview need to be annotated with @ServiceMethod</b> 
      *  
      * @author Tony Ni
      * @author Jim Jiang

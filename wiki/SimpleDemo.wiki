@@ -66,7 +66,9 @@ public class MobileLiteActivity extends Activity {
     	 * the javascript will pass the inputed name to this method and this method
     	 * will show a Toast message
     	 * 
-    	 * The javascript code:
+    	 * With annotation @ServiceMethod, the method is declared to be used in webview
+    	 * 
+    	 * Javascript consume @code 
     	 * 	$("#helloBtn").click(function() {
     	 *  	bean.hello($("#name").val());
     	 *  });
@@ -84,7 +86,9 @@ public class MobileLiteActivity extends Activity {
     	 * the javascript will call readConfig and display the returned configuration info
     	 * into result zone on the page.
     	 * 
-    	 * The javascript code:
+    	 * With annotation @ServiceMethod, the method is declared to be used in webview
+    	 * 
+    	 * Javascript consume @code 
     	 * 	$("#infoBtn").click(function() {
     	 * 		bean.readConfig(function(config) {
     	 * 			$("#result").html(config.info);

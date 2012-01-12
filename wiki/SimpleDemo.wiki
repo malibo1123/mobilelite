@@ -18,7 +18,7 @@ When click the "Config Info" button, display the content read from assets/config
 <li>[http://mobilelite.googlecode.com/svn/trunk/mobilelite-demo/src/org/mobilelite/MobileLiteActivity.java MobileLiteActivity.java]</li>
 <li>[http://mobilelite.googlecode.com/svn/trunk/mobilelite-demo/assets/config.properties assets/config.properties]</li>
 <li>[http://mobilelite.googlecode.com/svn/trunk/mobilelite-demo/assets/demo.html assets/demo.html]</li>
-<li>[http://mobilelite.googlecode.com/files/mobilelite-core-0.0.2.jar mobilelite.jar] (need to be included in your classpath)</li>
+<li>[http://mobilelite.googlecode.com/files/mobilelite-core-0.0.4.jar mobilelite.jar] (need to be included in your classpath)</li>
 <li>[http://mobilelite.googlecode.com/files/mobilelite.js mobilelite.js] (need to be included in your html "head")</li>
 <br>
 
